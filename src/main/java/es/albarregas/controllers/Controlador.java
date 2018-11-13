@@ -51,7 +51,7 @@ public class Controlador extends HttpServlet {
         }
 
         if (!error) {
-            if (request.getParameter("all").equals("equipo")) {
+            if (request.getParameter("all").equals("equipos")) {
                 DAOFactory daof = DAOFactory.getDAOFactory(1);
                 IAlumnosDAO adao = daof.getAlumnosDAO();
                 ArrayList<Alumno> alumnosYequipos = adao.getAlumnosEquipo();
