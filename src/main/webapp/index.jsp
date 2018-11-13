@@ -15,8 +15,8 @@
             
             <label>Introduce número de alumnos: </label><input type="number" name="numero"></br>
             <button type="submit" name="enviar" value="enviar"> Mostrar el número de alunmos introducidos
-            <button id="botonMostrar" type="submit" name="all" value="alumnos">Mostrar todos los alumnos
-            <button id="botonMostrar" type="submit" name="all" value="equipo">Mostrar alumnos y equipos
+            <button type="submit" name="all" value="alumnos">Mostrar todos los alumnos
+            <button type="submit" name="all" value="equipo">Mostrar alumnos y equipos
             
         </form>
     </body>
