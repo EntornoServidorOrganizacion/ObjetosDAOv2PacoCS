@@ -61,7 +61,7 @@ public class AlumnosDAO implements IAlumnosDAO {
             while (resultado.next()) {
                 Alumno alumno = new Alumno();
                 alumno.setNombre(resultado.getString("nombre"));
-                alumno.setNombre(resultado.getString("grupo"));
+                alumno.setGrupo(resultado.getString("grupo"));
                 Equipo equipo = new Equipo();
                 equipo.setMarca(resultado.getString("marca"));
                 equipo.setIdEquipo(resultado.getInt("idEquipo"));
