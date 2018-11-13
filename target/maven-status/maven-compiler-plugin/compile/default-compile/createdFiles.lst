@@ -1,5 +1,10 @@
-es/albarregas/DAO/ConnectionFactory.class
+es/albarregas/DAOFACTORY/DerbiDAOFactory.class
 es/albarregas/beans/Equipo.class
-es/albarregas/DAO/IAlumnosDAO.class
+es/albarregas/DAOFACTORY/OracleDAOFactory.class
 es/albarregas/controllers/Controlador.class
+es/albarregas/DAO/ConnectionFactory.class
+es/albarregas/DAOFACTORY/MySQLDAOFactory.class
+es/albarregas/DAO/AlumnosDAO.class
+es/albarregas/DAO/IAlumnosDAO.class
+es/albarregas/DAOFACTORY/DAOFactory.class
 es/albarregas/beans/Alumno.class
